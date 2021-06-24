@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css" />
+  <title>Work Day Scheduler</title>
+</head>
+
+<body>
+  <!-- Header (bootstrap jumbotron) -->
+  <div class="p-5 text-center bg-image rounded-3" style="
+    background-color: rgb(22, 74, 65);
+    height: 300px;
+  ">
+    <div class="mask" style="background-color: rgba(77, 119, 78);">
+      <div class="d-flex justify-content-center align-items-center h-100">
+        <div class="text-black top-box">
+          <h1 class="mb-3">Work Day Scheduler</h1>
+          <h4 class="mb-3">A simple calendar app for scheduling your work day</h4>
+          <a class="btn btn-primary" href="#box" role="button">Schedule</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container" id='box'>
+    <!-- 9 AM Hour Bootstrap box-->
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text time">9AM</span>
+      </div>
+      <textarea value="" id="note-9" type="text" cols="100" rows="2" class="form-control"></textarea>
+      <div class="input-group-append">
+        <button id="9" class="btn btn-outline-success save" type="button">Save</button>
+      </div>
+    </div>
+    <!-- 10 AM Hour Bootstrap box -->
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text time">10AM</span>
+      </div>
+      <textarea value="" id="note-10" type="text" cols="100" rows="2" class="form-control"></textarea>
+      <div class="input-group-append">
+        <button id="10" class="btn btn-outline-success save" type="button">Save</button>
+      </div>
+    </div>
+    <!-- 11 AM Hour Bootstrap box -->
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text time">11AM</span>
+      </div>
+      <textarea value="" id="note-11" type="text" cols="100" rows="2" class="form-control"></textarea>
+      <div class="input-group-append">
+        <button id="11" class="btn btn-outline-success save" type="button">Save</button>
+      </div>
+    </div>
+    <!-- 12 PM Hour Bootstrap box -->
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text time">12PM</span>
+      </div>
+      <textarea value="" id="note-12" type="text" cols="100" rows="2" class="form-control"></textarea>
+      <div class="input-group-append">
+        <button id="12" class="btn btn-outline-success save" type="button">Save</button>
+      </div>
+    </div>
+    <!-- 1 PM Hour Bootstrap box -->
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text time">1 PM</span>
+      </div>
+      <textarea value="" id="note-13" type="text" cols="100" rows="2" class="form-control"></textarea>
+      <div class="input-group-append">
+        <button id="13" class="btn btn-outline-success save" type="button">Save</button>
+      </div>
+    </div>
+    <!-- 2 PM Hour Bootstrap box -->
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text time">2 PM</span>
+      </div>
+      <textarea value="" id="note-14" type="text" cols="100" rows="2" class="form-control"></textarea>
+      <div class="input-group-append">
+        <button id="14" class="btn btn-outline-success save" type="button">Save</button>
+      </div>
+    </div>
+    <!-- 3 PM Hour Bootstrap box -->
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text time">3 PM</span>
+      </div>
+      <textarea value="" id="note-15" type="text" cols="100" rows="2" class="form-control"></textarea>
+      <div class="input-group-append">
+        <button id="15" class="btn btn-outline-success save" type="button">Save</button>
+      </div>
+    </div>
+    <!-- 4 PM Hour Bootstrap box -->
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text time">4 PM</span>
+      </div>
+      <textarea value="" id="note-16" type="text" cols="100" rows="2" class="form-control"></textarea>
+      <div class="input-group-append">
+        <button id="16" class="btn btn-outline-success save" type="button">Save</button>
+      </div>
+    </div>
+    <!-- 5 PM Hour Bootstrap box -->
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text time">5 PM</span>
+      </div>
+      <textarea value="" id="note-17" type="text" cols="100" rows="2" class="form-control"></textarea>
+      <div class="input-group-append">
+        <button id="17" class="btn btn-outline-success save" type="button">Save</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  <script src="./script.js"></script>
+</body>
+
+</html>
